@@ -1,14 +1,14 @@
 <head>
-	<h1>  Open Event Web</h1>
+	<h1>  Go Barber Web</h1>
 </head>
 <body>
 	<p align="center">
-  <img src="logo.png" width="150" title="Open Event ">
+  <img src="logo.svg" width="150" title="Open Event ">
 </p>
 <div>
 
   ##  Description:
-   - Open Event is an event management project, where events are created, user list, upload invitations and trigger by email.
+   - This project is a barber shop system where services are scheduled, customers and service providers login and listings, notifications are also displayed and email is sent.
 
   ##  Running:
    - Clone code - "git clone url_repository" .
@@ -22,15 +22,22 @@
    - Axios
    - Styled components
    - React Router Dom
+   - Redux
+   - Redux Saga
    - Developer:
         - `Eslint`
         - `Prittier`
         - `Editor Config`
 
   ## Features:
-  - Login/List/Create Events
-  - Align qrcode tickets
-  - Send Email 
+  - Login/Create/Update User using JWT
+  - Create/Liste/Delete Appointments
+  - List/Update Notifications
+  - Send Email Notifications
+  - List Schedule provider
+  - List Available hours
+  - List Provider
+  - Upload Avatar Image
 
 
 </div>
