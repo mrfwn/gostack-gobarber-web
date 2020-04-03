@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     browser: true,
+    jest: true,
     es6: true,
   },
   extends: [
@@ -23,7 +24,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    'prettier'
+    'prettier',
+    "jsx-a11y", "import", "react-hooks"
   ],
   rules: {
     'prettier/prettier': 'error',
@@ -31,5 +33,23 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/state-in-constructor': [1, 'never'],
     'react/static-property-placement': [1],
+    "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "react/jsx-one-expression-per-line": "off",
+    "global-require": "off",
+    "react-native/no-raw-text": "off",
+    "no-param-reassign": "off",
+    "no-underscore-dangle": "off",
+    camelcase: "off",
+    'react/jsx-props-no-spreading': "off",
+    "no-console": ["error", { allow: ["tron"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  settings: {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        rootPathSuffix: "src"
+      },
+    },
   },
 };
