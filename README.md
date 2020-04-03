@@ -3,7 +3,7 @@
 </head>
 <body>
 	<p align="center">
-  <img src="logo.svg" width="150" title="Open Event ">
+  <img src="logo.svg" width="150" title="Go Barber Web ">
 </p>
 <div>
 
